@@ -90,7 +90,7 @@ public:
             addDependList(i, dependsAllJobList[i], nameToId);
         }
         for(int i = 0; i < FINISH; ++i){
-
+            if (jobs[i].edgeList.empty())
                 jobs[i].edgeList.emplace_back(FINISH);
         }
     }
