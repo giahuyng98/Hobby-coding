@@ -1,7 +1,10 @@
 # Hobby-coding
 
 ## crashing
+
 online link: https://www.jdoodle.com/a/1FFm
+
+
 input:
 Tháng số_lượng_cv
 cv et c et c phụ_thuộc... 
@@ -21,6 +24,7 @@ E 5 10 2 19
 F 5 30 2 45 C
 
 => output
+`
 +------+----------+---------+-------+---------------+
 | Step |  Crashed | Cr.Cost | T.End |      Next     |
 +------+----------+---------+-------+---------------+
@@ -47,3 +51,4 @@ F 5 30 2 45 C
 |    10|       ACF|       29|      7|              B|
 +------+----------+---------+-------+---------------+
 
+`
