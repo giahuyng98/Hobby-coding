@@ -65,10 +65,8 @@ public:
             stringstream ss(line);
             string jobName;
             ss >> jobName;
-            Job job(jobs.size(), ss);
-            job.id = jobs.size();
-            nameToId[jobName] = job.id;
-            jobs.emplace_back(job);
+            nameToId[jobName] = jobs.size();
+            jobs.emplace_back(Job(jobs.size(), ss));
             vector<string> edgeList;
             string depend;
             while (ss >> depend){
