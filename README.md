@@ -7,17 +7,17 @@ online link: https://www.jdoodle.com/a/1FFm
 
 input:
 
-Tháng số_lượng_cv
+số_tháng_cần_crash số_lượng_cv
 
-cv et c et c phụ_thuộc... 
+tên_cv ET_bt C_bt ET_gấp C_gấp danh_sách_cv_phụ_thuộc
 
-cv et c et c phụ_thuộc... 
 
 VD:
 Mỗi công việc sau được mô tả là: Tên(ET bt, C bt, ET gấp, C gấp, Phụ thuộc), thời gian : tháng, tiền : usd 
 A(2, 10, 1, 16, -), B(3, 20, 1, 38, A), C(2, 10, 1, 18, B), D(5, 40, 3, 80, -), E(5, 10, 2, 19, -), F(5, 30, 2, 45, C)
 Hãy tìm phương án làm gấp để dự án hoàn thành trong vòng 7 tháng với tổng chi phí làm gấp là nhỏ nhất. 
-input:
+
+Input:
 
 ```
 7 6
